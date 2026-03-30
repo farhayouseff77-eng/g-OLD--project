@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Era Store</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+
+    <a class="navbar-brand" href="index.html">g(OLD)</a>
+
+    <div class="ms-auto">
+      <a class="nav-link d-inline text-white me-3" href="index.html">Home</a>
+      <a class="nav-link d-inline text-white me-3" href="#products">Products</a>
+      <a class="nav-link d-inline text-white me-3" href="cart.html">Cart</a>
+      <a class="nav-link d-inline text-white me-3" href="about.html">About</a>
+      <a class="nav-link d-inline text-white" href="contact.html">Contact</a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="text-center p-5   d-flex" style="   background-color: #e6bba6 !important;">
+    <div class="col-md-4">
+        <h1 style="color:    #643820 !important;">Timeless Elegance</h1>
+        <p style="color:     #341e13 !important; ">Vintage fashion inspired by old eras</p>
+        <p style="color:    #643820 !important;
+    font-weight: bold;
+    font-size: 22px;">Selling luxurious, elegant vintage-style pieces that are serene, sophisticated,
+            and pleasing to the eye. Everything you're looking for from the beauty of 
+            bygone eras can be found here g(OLD) fashion </p>
+    </div>
+   
+    <img class="col-md-4" src="./img/01.jpg" alt="">
+    <img class="col-md-4" src="./img/Title-Image16-1.webp" alt="">
+</section>
+
+<!-- PRODUCTS -->
+ <section style="    background-color: #3e2c23 !important;">
+    <div id="products" class="container p-5" >
+    <h2 class="text-center mb-4" style="color: gold !important;">Featured Products</h2>
+
+    <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-md-3">
+            <div class="card " style="background-color: #e6bba6 !important;">
+                <img src="./img/480c6a89eb572695b851b45710897a66.jpg" class="card-img-top" style="width: 50%; height: 50%; margin-left: 80px;">
+                <div class="card-body text-center">
+                    <h5>Vintage Blazer</h5>
+                    <p>$70</p>
+
+                    <a class="btn btn-outline-dark me-2"
+                       href="product.html?name=Vintage%20Blazer&price=70&img=./img/480c6a89eb572695b851b45710897a66.jpg">
+                       View Details
+                    </a>
+
+                    <button class="btn btn-dark"
+                            onclick="addToCart('Vintage Blazer', 70)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-3">
+            <div class="card" style="background-color: #e6bba6 !important;">
+                <img src="./img/d7a0b3bb85dd9cc6be5e322004b83e2a.webp" class="card-img-top" style="width: 50%; height: 238px; margin-left: 80px;">
+                <div class="card-body text-center">
+                    <h5>Classic Dress</h5>
+                    <p>$90</p>
+
+                    <a class="btn btn-outline-dark me-2"
+                       href="product.html?name=Classic%20Dress&price=90&img=./img/d7a0b3bb85dd9cc6be5e322004b83e2a.webp">
+                       View Details
+                    </a>
+
+                    <button class="btn btn-dark"
+                            onclick="addToCart('Classic Dress', 90)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-3">
+            <div class="card" style="background-color: #e6bba6 !important;">
+                <img src="./img/25c3a649a44dbc226e712c615246353f.webp" class="card-img-top" style="width: 50%; height: 50%; margin-left: 80px;">
+                <div class="card-body text-center">
+                    <h5>Old Money Coat</h5>
+                    <p>$120</p>
+
+                    <a class="btn btn-outline-dark me-2"
+                       href="product.html?name=Old%20Money%20Coat&price=120&img=./img/25c3a649a44dbc226e712c615246353f.webp">
+                       View Details
+                    </a>
+
+                    <button class="btn btn-dark"
+                            onclick="addToCart('Old Money Coat', 120)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-3">
+            <div class="card" style="background-color: #e6bba6 !important;">
+                <img src="./img/Screenshot 2026-03-29 225811.png" class="card-img-top" style="width: 50%; height: 45%; margin-left: 80px;">
+                <div class="card-body text-center">
+                    <h5>Old Classic shose</h5>
+                    <p>$120</p>
+
+                    <a class="btn btn-outline-dark me-2"
+                       href="product.html?name=Old%20Money%20Coat&price=120&img=./img/Screenshot 2026-03-29 225811.png">
+                       View Details
+                    </a>
+
+                    <button class="btn btn-dark"
+                            onclick="addToCart('Old Money Coat', 120)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div></section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

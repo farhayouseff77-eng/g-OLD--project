@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #f5f0e6; /* بيچ */
+    font-family: 'Georgia', serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #3e2c23 !important; /* بني */
+}
+
+.navbar-brand {
+    color: gold !important;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Hero */
+section {
+    background-color: #e8dfd6 !important;
+}
+
+h1 {
+    color: #3e2c23;
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h5 {
+    color: #3e2c23;
+}
+
+/* Button */
+.btn-dark {
+    background-color: #3e2c23;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: gold;
+    color: black;
+}
